@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { lookupWord, searchBySynonym } from '@/lib/dictionary'
+import { lookupWord, searchBySynonym } from '@/lib/lookup'
 
 export default function Home() {
   const [query, setQuery] = useState('')
